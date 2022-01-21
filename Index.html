@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Main Page</title>
+    </head>
+
+    <style>
+        .container{
+            border :5px outset red;
+            background-color: lightblue;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .ft
+        {
+            border :5px outset palevioletred;
+            background-color: rgb(201, 231, 241);
+            text-align: center;
+            width: 500px;
+            margin:auto ;
+        }
+        
+    </style>
+   
+    <body>
+        <div class="container"> 
+            <b> <a href="index.html"> Category | <a href="product.php">Product</a></b>
+        </div>
+        <form action="connect.php" method="POST">
+            <div class="ft">
+            <table>
+                    <tr> 
+                        <label for="category_id"></label>
+                        <td> Category ID </td>
+                        <td><input type='number' name="category_id"></td>
+                    </tr>
+
+                    <tr> 
+                        <label for="category_name"></label>
+                        <td> Category Name </td>
+                        <td><input type='text'name="category_name"></td>
+                    </tr>     
+            </table>
+            <input type="submit" value="Add">
+            <a href="show_cat.php"> <input type="button" name="show" value="show"> 
+            </script>
+            </div>
+        </form>
+    </body>
+</html>
